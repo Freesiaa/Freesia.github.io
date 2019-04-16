@@ -8,7 +8,7 @@ subtitle:
 description: 产品、随想、读书笔记、电影推荐
 keywords:
 author: 七七
-language: 中文
+language: zh-Hans
 timezone:
 
 # URL
@@ -73,11 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  Type: git
-  Repo: https://github.com/Freesiaa/Freesiaa.github.io
-  Branch: master
+  type: git
+  repo: git@github.com:Freesiaa/Freesiaa.github.io.git
+  branch: gh-pages
